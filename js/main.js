@@ -1,6 +1,3 @@
-// importing necessary libraries
-
-
 // defining dom elements
 const browserName = document.createElement("h2");
 const browserVersion = document.createElement("h2");
