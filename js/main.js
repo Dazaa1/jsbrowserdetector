@@ -4,8 +4,6 @@ const browserVersion = document.createElement("h2");
 const body = document.querySelector("#body")
 
 
-
-
 const getUserAgent = () => {
     // parse user agent
     let result = bowser.getParser(navigator.userAgent).getResult();
@@ -17,7 +15,7 @@ const getUserAgent = () => {
 }
 
 // adding an event listener listening to load event.
-window.addEventListener("load", getUserAgent());
+window.addEventListener("load", getUserAgent);
 
 body.style.display = "flex";
 body.style.flexDirection = "column";
